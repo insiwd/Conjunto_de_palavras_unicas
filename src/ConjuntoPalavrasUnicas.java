@@ -12,6 +12,10 @@ public class ConjuntoPalavrasUnicas {
     palavasUnicas.add(palavra);
   }
 
+  public void removerPalavra(String palavra) {
+    palavasUnicas.remove(palavra);
+  }
+
   @Override
   public String toString() {
     return "palavasUnicas = " + palavasUnicas;

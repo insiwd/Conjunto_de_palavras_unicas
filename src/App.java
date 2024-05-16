@@ -4,5 +4,8 @@ public class App {
 
         conjunto.adicionarPalavra("ola");
         System.out.println(conjunto);
+
+        conjunto.removerPalavra("ola");
+        System.out.println(conjunto);
     }
 }
