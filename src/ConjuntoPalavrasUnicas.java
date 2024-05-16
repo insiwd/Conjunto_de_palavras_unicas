@@ -13,15 +13,23 @@ public class ConjuntoPalavrasUnicas {
   }
 
   public void removerPalavra(String palavra) {
-    palavasUnicas.remove(palavra);
+    String palavrasParaRemover = null;
+    for (String s : palavasUnicas) {
+      if (s == palavra) {
+        palavrasParaRemover = s;
+      }
+      break;
+    }
+    palavasUnicas.remove(palavrasParaRemover)
+  }
+
+  public void verificarPalavra(String palavra) {
+
   }
 
   @Override
   public String toString() {
     return "palavasUnicas = " + palavasUnicas;
   }
-
-
-
 
 }
