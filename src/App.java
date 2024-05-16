@@ -3,6 +3,7 @@ public class App {
         ConjuntoPalavrasUnicas conjunto = new ConjuntoPalavrasUnicas();
 
         conjunto.adicionarPalavra("ola");
+        conjunto.adicionarPalavra("olar");
         System.out.println(conjunto);
 
         conjunto.removerPalavra("ola");
