@@ -20,11 +20,7 @@ public class ConjuntoPalavrasUnicas {
       }
       break;
     }
-    palavasUnicas.remove(palavrasParaRemover)
-  }
-
-  public void verificarPalavra(String palavra) {
-
+    palavasUnicas.remove(palavrasParaRemover);
   }
 
   @Override
